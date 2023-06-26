@@ -1,0 +1,63 @@
+/* banner */
+.img-banner img {
+  width: 100%;
+  height: auto;
+}
+/* end banner */
+/* form */
+.form-css {
+  margin-bottom: 1em;
+}
+.textarea {
+  margin-bottom: 1em;
+  padding-top: 0.7em;
+  min-height: 120px;
+  height: 2.507em !important;
+}
+.con-info h3 {
+  color: #905d2f;
+  font-size: 1.25em;
+  font-weight: 700;
+  margin-bottom: 0.9em;
+}
+.product h4 {
+  padding-top: 1.3rem;
+  padding-bottom: 1.5rem;
+}
+.icon-contact-css {
+  padding: 0.3rem;
+  opacity: 0.5;
+  font-size: 1em;
+}
+.con-info p {
+  margin-bottom: 0.1em;
+  padding-top: 0.3em;
+  opacity: 0.8;
+}
+.con-info a {
+  color: black;
+  opacity: 0.9;
+  text-decoration: none;
+}
+.con-info a:hover {
+  opacity: 1;
+}
+.button-send button {
+  background-color: #70c130;
+  border: none;
+  color: white;
+  font-size: 0.97em;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5em;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  margin-bottom: 2rem;
+}
+/* end form */
+/* map */
+.map-css {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+/* end map */

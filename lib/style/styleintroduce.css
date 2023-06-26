@@ -1,0 +1,32 @@
+/* history */
+.introduce {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.list-intro ul li {
+  text-decoration: none;
+  list-style: none;
+  padding-bottom: 0.5rem;
+}
+.list-intro ul li a {
+  color: #905d2f;
+  font-size: 1em;
+}
+.list-intro ul li a:hover {
+  text-decoration: none;
+  color: #70c130;
+}
+.text-css {
+  padding-top: 1.5em !important;
+}
+.img-product img {
+  margin-bottom: 1.5em;
+}
+/* end history */
+/* achivement */
+.text-css-achive {
+  padding-bottom: 1.5em;
+  margin-bottom: 0;
+  color: rgb(26, 26, 26);
+}
+/* end achivement */

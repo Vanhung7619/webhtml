@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../lib/style/style.css" />
+    <title>Betrimex</title>
+  </head>
+  <body>
+    <header class="head">
+      <div class="container row head1">
+        <!-- menu -->
+        <div class="col-md-8 menubar-search">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- logo -->
+            <div class="logo">
+              <a href="./index.html"><img src="./lib/image/logo/logo.png" alt="LOGO" /></a>
+            </div>
+            <!-- end logo -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                  <a class="nav-link mnhead" href="#">trang chủ</a>
+                </li>
+                <li class="nav-item dropdown dropdown1">
+                  <a class="nav-link dropdown-toggle mnhead" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> sản phẩm </a>
+                  <div class="dropdown-menu menu-css">
+                    <a class="dropdown-item" href="./page/product.html">Sản phẩm</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./page/productoil.html">Dầu dừa tinh khiết</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./page/productoil.html">Nước dừa trái cây</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./page/productoil.html">Nước dừa xiêm xanh</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./page/productoil.html">Sữa dừa</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown dropdown1">
+                  <a class="nav-link dropdown-toggle mnhead" href="./page/introduce.html" role="button" data-toggle="dropdown" aria-expanded="false"> giới thiệu </a>
+                  <div class="dropdown-menu menu-css">
+                    <a class="dropdown-item" href="./page/introduce.html">Lịch sử phát triển</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./page/achivement.html">Thành tựu</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="./page/vision.html">Tầm nhìn sứ mệnh</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown dropdown1">
+                  <a class="nav-link dropdown-toggle mnhead" href="#" role="button" data-toggle="dropdown" aria-expanded="false"> trang tin tức </a>
+                  <div class="dropdown-menu menu-css">
+                    <a class="dropdown-item" href="#">Góc báo chí</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Thông tin thị trường</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Tin tức</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mnhead" href="./page/contact.html">liên hệ</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <!-- end menu -->
+        <!-- cart -->
+        <!-- Search form -->
+        <div class="col-4 row button-group">
+          <div class="row">
+            <form class="form-inline group-search">
+              <input class="form-control form-control-sm ml-3 w-75 input-css" type="text" placeholder="Tìm kiếm"
+                aria-label="Search">
+                <button type="submit" value="Tìm kiếm" aria-label="submit"><i class="bi bi-search"></i></button>
+            </form>
+            <div class="dropdown dropdown1 dropdown-cart">
+              <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                GIỎ HÀNG <i class="bi bi-cart3 card-icon"></i>
+              </button>
+              <div class="dropdown-menu dropdown-cart-hover" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Chưa có sản phẩm trong giỏ hàng</a>
+              </div>
+            </div>
+            <div class="dropdown dropdown1 dropdown-cart-repon">
+              <button class="btn btn-secondary button-repon" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="bi bi-search"></i>
+              </button>
+              <div class="dropdown-menu dropdown-cart-hover" aria-labelledby="dropdownMenuButton">
+                <div class="row">
+                  <input class="form-control form-control-sm ml-3 w-75 input-css" type="text" placeholder="Tìm kiếm"
+                aria-label="Search">
+                <button class="button-drop" type="submit" value="Tìm kiếm" aria-label="submit"><i class="bi bi-search"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end -->
+      </div>
+    </header>
+    <!-- carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators li-style">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./lib/image/carousel_image/crs1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./lib/image/carousel_image/crs2.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./lib/image/carousel_image/crs3.png" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="./lib/image/carousel_image/crs4.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev control-css-pr" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next control-css-ne" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
+    </div>
+    <!-- end -->
+    <!-- info -->
+    <div class="container row info">
+      <div class="col-md-4">
+        <h4>Những sản phẩm</h4>
+        <h2>tuyệt vời</h2>
+        <p>Chúng tôi tự hào mang đến những sản phẩm chất lượng nhất, ngon nhất vì sức khỏe người dùng.</p>
+        <div class="circle"></div>
+        <img src="./lib/image/info_image/bdcol1.jpg" alt="" />
+      </div>
+      <div class="col-md-4">
+        <h4>Hệ thống phân phối</h4>
+        <h2>rộng khắp</h2>
+        <p>Sản phẩm của chúng tôi có mặt trên 40 quốc gia khác nhau trên thế giới.</p>
+        <div class="circle"></div>
+        <img src="./lib/image/info_image/bdcol2.jpg" alt="" />
+      </div>
+      <div class="col-md-4">
+        <h4>Vùng nguyên liệu</h4>
+        <h2>chất lượng</h2>
+        <p>Từ những vườn dừa uy tín xứ Việt tươi tốt, cho năng suất cao và chất lượng.</p>
+        <div class="circle"></div>
+        <img src="./lib/image/info_image/bdcol3.jpg" alt="" />
+      </div>
+    </div>
+    <!-- end info -->
+    <!-- product -->
+    <section class="section">
+      <div class="container product">
+        <h3 style="text-align: center">
+          <span style="font-weight: bold; color: #66cc00">SẢN PHẨM CỦA CHÚNG TÔI</span>
+        </h3>
+        <div class="row product1">
+          <div class="col-6 col-md-3 col-pad">
+            <div class="card cardpd">
+              <a href="./page/productoil.html" class="link-card">
+                <img src="./lib/image/card_image/pro1.jpg" class="card-img-top crdimg" alt="product" />
+                <img src="./lib/image/card_image/pro1.jpg" class="card-img-top crdimg show-on-hover back-image" alt="product" />
+              </a>
+              <div class="show-on-hover hover-slide-in a-css">
+                <a class="Quick-css" href="./page/productoil.html">Quick View</a>
+              </div>
+              <div class="card-body">
+                <p class="crdtitle title-card">Sản phẩm từ dừa</p>
+                <a href="./page/productoil.html" class="link-card">Nước dừa trái cây</a>
+                <p class="card-text">Liên hệ</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-pad">
+            <div class="card cardpd">
+              <a href="./page/productoil.html" class="link-card">
+                <img src="./lib/image/card_image/pro2.jpg" class="card-img-top crdimg" alt="product" />
+                <img src="./lib/image/card_image/pro2.jpg" class="card-img-top crdimg show-on-hover back-image" alt="product" />
+              </a>
+              <div class="show-on-hover hover-slide-in a-css">
+                <a class="Quick-css" href="./page/productoil.html">Quick View</a>
+              </div>
+              <div class="card-body">
+                <p class="crdtitle title-card">Sản phẩm từ dừa</p>
+                <a href="./page/productoil.html" class="link-card">Dầu dừa tinh khiết</a>
+                <p class="card-text">250,000 <span class="symbol-vnd">&#8363</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-3 col-pad">
+            <div class="card cardpd">
+            <a href="./page/productoil.html" class="link-card">
+              <img src="./lib/image/card_image/pro3.jpg" class="card-img-top crdimg" alt="product" />
+              <img src="./lib/image/card_image/pro3.jpg" class="card-img-top crdimg show-on-hover back-image" alt="product" />
+            </a>
+            <div class="show-on-hover hover-slide-in a-css">
+              <a class="Quick-css" href="./page/productoil.html">Quick View</a>
+            </div>
+            <div class="card-body">
+              <p class="crdtitle title-card">Sản phẩm từ dừa</p>
+              <a href="./page/productoil.html" class="link-card">Sữa dừa</a>
+              <p class="card-text">125,000 <span class="symbol-vnd">&#8363</span></p>
+            </div>
+          </div>
+          </div>
+          <div class="col-6 col-md-3 col-pad">
+            <div class="card cardpd">
+            <a href="./page/productoil.html" class="link-card">
+              <img src="./lib/image/card_image/pro4.jpg" class="card-img-top crdimg" alt="product" />
+              <img src="./lib/image/card_image/prohover4.jpg" class="card-img-top crdimg show-on-hover back-image" alt="product" />
+            </a>
+            <div class="show-on-hover hover-slide-in a-css">
+              <a class="Quick-css" href="./page/productoil.html">Quick View</a>
+            </div>
+            <div class="card-body">
+              <p class="crdtitle title-card">Sản phẩm từ dừa</p>
+              <a href="./page/productoil.html" class="link-card">Nước dừa xiêm xanh</a>
+              <p class="card-text">125,000 <span class="symbol-vnd">&#8363</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- end product -->
+    <!-- transaction -->
+    <section class="section-transaction">
+      <div class="container transaction">
+      <h4>giao dịch dễ dàng với alibaba.com</h4>
+      <p>Kết hợp cùng trang mua bán trực tuyến Alibaba,
+        <br>chúng tôi gởi đến bạn sự tiện lợi và hoàn toàn yên tâm khi đặt hàng.</p>
+      <button class="button-transaction"><span class="text-transaction">Đặt hàng ngay</span></button>
+      <img src="./lib/image/dif_image/alibaba1.png" class="reponsive-img" alt="lazy">
+    </div>
+    </section>
+    <!-- end transaction -->
+    <!-- footer1 -->
+    <footer class="foot1">
+      <div class="container footer1">
+        <div class="row support">
+          <div class="col-md-4">
+            <p class="slog">gặp thắc mắc, <br>cần chúng tôi hỗ trợ?</p>
+          </div>
+          <div class="row col-md-3">
+            <a href="#" class="footer-icon"><img src="./lib/image/icon/footicon1.jpg" alt="icon"></a>
+            <a href="#" class="link-foot1">Những câu hỏi <br>thường gặp</a>
+          </div>
+          <div class="row col-md-3">
+            <a href="#" class="footer-icon"><img src="./lib/image/icon/footicon2.jpg" alt="icon"></a>
+            <a href="#" class="link-foot1">Đăng ký <br>nhận tin</a>
+          </div>
+          <div class="row col-md-2">
+            <a href="#" class="footer-icon"><img src="./lib/image/icon/footicon3.jpg" alt="icon"></a>
+            <a href="#" class="link-foot1">Liên hệ <br>với chúng tôi</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer1 -->
+    <!-- footer2 -->
+      <footer class="foot2">
+      <div class="container footer2">
+        <div class="row footer">
+          <div class="col-md-3">
+            <p class="footer-title">giới thiệu</p>
+            <ul class="menu list-unstyled">
+              <li class="item"><a href="#">Lịch sử phát triển</a></li>
+              <li class="item"><a href="#">Thành tựu</a></li>
+              <li class="item"><a href="#">Tầm nhìn sứ mệnh</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <p class="footer-title">sản phẩm</p>
+            <ul class="menu list-unstyled">
+              <li class="item item-img">
+              <a href="#"><img src="./lib/image/footer_image/footimage1.jpg" alt="">Nước dừa trái cây<br></a>
+              <span class="foot-text">Liên hệ</span>
+              </li>
+              <li class="item item-img">
+              <a href="#"><img src="./lib/image/footer_image/footimage2.jpg" alt="">Dầu dừa tinh khiết<br></a>
+              <span class="foot-text">250,000 <span class="symbol-vnd">&#8363</span></span>
+              </li>
+              <li class="item item-img">
+              <a href="#"><img src="./lib/image/footer_image/footimage3.jpg" alt="">Sữa dừa<br></a>
+              <span class="foot-text">125,000 <span class="symbol-vnd">&#8363</span></span>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <p class="footer-title">tin tức</p>
+            <ul class="menu list-unstyled">
+              <li class="item"><a href="#">Tin tức</a></li>
+              <li class="item"><a href="#">Góc báo chí</a></li>
+              <li class="item"><a href="#">Thông tin thị trường</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <p class="footer-title">fanpage facebook</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer2 -->
+    <script src="../lib/js/jquery-3.6.0.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
